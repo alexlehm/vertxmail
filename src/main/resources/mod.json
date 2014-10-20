@@ -1,0 +1,16 @@
+{
+  // Java verticle
+  "main":"cx.lehmann.vertx.mail.vertxmail.MailTest",
+
+  // If your module is going to be registered in the Vert.x module registry you will also need the following
+  // mandatory fields
+  "description":"SMTP Mail Verticle",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Alexander Lehmann",
+
+  // Optional fields
+  "keywords": ["smtp", "client"],
+  "homepage": "http://www.lehmann.cx/???",
+
+  "auto-redeploy": true
+}
